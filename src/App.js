@@ -18,7 +18,7 @@ function App() {
             placeholder="Seu E-mail" 
             required
           />
-          <button type="submit">
+          <button className="btn" type="submit">
             Entrar
           </button>
         </form>
