@@ -9,7 +9,20 @@ function App() {
 
       <div className="content">
         <p>Ofereça <strong>Spots</strong> para programadores e econtre <strong>talentos</strong> para sua empresa</p>
-      </div>
+      
+        <form >
+          <label htmlFor="email" >E-MAIL *</label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Seu E-mail" 
+            required
+          />
+          <button type="submit">
+            Entrar
+          </button>
+        </form>
+       </div>
     </div>
     );
 }
